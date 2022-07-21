@@ -1,15 +1,19 @@
 main {
     background-image: url("../img/background.jpg");
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0px;
 }
 
 h1 {
-    margin: 0;
+    margin: 0px;
+    padding-top: 5%;
     color: #FFDB58;
     display: flex;
     justify-content: center;
     position: relative;
-    top: 23%;
     font-size: 44px;
 }
 
@@ -17,7 +21,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 20%;
+    padding-top: 10%;
     gap: 3rem;
 }
 
@@ -77,4 +81,20 @@ form {
   box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
   color: rgba(0, 0, 0, 0.65);
   transform: translateY(0);
+}
+
+@media (max-width: 900px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  } 
+
+  h1 {
+    font-size: 25px;
+  }
+
+  .mapOutput {
+    width: 350px;
+    font-size: 16px;
+  }
 }

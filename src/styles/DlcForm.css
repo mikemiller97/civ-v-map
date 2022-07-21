@@ -33,3 +33,12 @@ label {
     height: fit-content;
     height: 5px;
 }
+
+@media (max-width: 900px) {
+    .dlcList {
+        display: grid;
+        grid-template-columns: 150px 50px 150px 50px;
+        grid-row: auto auto;
+        gap: 25px;
+    }    
+}
