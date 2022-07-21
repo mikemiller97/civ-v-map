@@ -1,0 +1,35 @@
+.dlc-form {
+    background: #121212;
+    position: absolute;
+    width: fit-content;
+    height:fit-content;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+    padding-top: 0%;
+    border: darkgrey 1px solid;
+    border-radius: 2px;
+    box-shadow: 2px;
+    font-size: 18px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+
+.dlcList {
+    display: grid;
+    grid-template-columns: 350px 50px 350px 50px;
+    grid-row: auto auto;
+    gap: 30px;
+}
+
+label {
+    color: white;
+}
+
+.dlcTitle{
+    color: white;
+    font-size: 35px;
+    height: fit-content;
+    height: 5px;
+}
