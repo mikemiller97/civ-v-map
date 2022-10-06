@@ -28,6 +28,14 @@ label {
     color: white;
 }
 
+label:hover {
+    cursor: pointer;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
 .dlcTitle{
     color: white;
     font-size: 35px;
